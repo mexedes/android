@@ -1,0 +1,17 @@
+   <AbsoluteLayout 
+        
+      android:background="#F90"
+      
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout"
+    
+
+  >
+       <TextView android:textSize="30pt" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content" android:text="YOU WIN" android:layout_x="6dp" android:layout_y="195dp"></TextView>
+       <ProgressBar 
+       
+       android:layout_width="wrap_content" style="?android:attr/progressBarStyleLarge" android:id="@+id/progressBar1" android:layout_height="wrap_content" android:layout_x="117dp" android:layout_y="298dp"></ProgressBar>
+   </AbsoluteLayout>

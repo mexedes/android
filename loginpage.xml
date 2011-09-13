@@ -1,0 +1,140 @@
+
+<LinearLayout android:id="@+id/linearLayout1"
+ android:background="@drawable/bggradient"
+
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<RelativeLayout android:id="@+id/relativeLayout1"
+	
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:gravity="center_vertical">
+		<TextView android:id="@+id/textView1" 
+		android:background="@drawable/logo_small"
+		android:layout_height="wrap_content"
+			android:text="TextView" android:layout_width="match_parent"
+			android:layout_centerVertical="true"></TextView>
+			
+	</RelativeLayout>
+
+	<LinearLayout android:id="@+id/linearLayout2"
+		android:orientation="vertical" android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<ImageButton android:layout_height="wrap_content"
+		android:background="@drawable/bggradient"
+			android:layout_width="match_parent" android:src="@drawable/login"
+			android:id="@+id/imageButton1"></ImageButton>
+</LinearLayout>
+	
+<LinearLayout 
+ android:background="@drawable/bggradient"
+	android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	android:id="@+id/linearLayout3" 
+	android:orientation="vertical">
+		
+			<LinearLayout 
+	android:id="@+id/linearLayout4" android:layout_width="match_parent" android:layout_height="match_parent">
+	
+	<TextView android:id="@+id/usernametext" 
+		android:background="@drawable/usernametext_small"
+		android:layout_width="wrap_content" 
+		android:layout_marginTop="10dp" 
+		android:text="" 
+		android:textSize="32sp"
+		android:layout_alignParentLeft="true" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/usernametext">
+	</TextView>
+		 
+	<EditText 
+	android:id="@+id/username" 
+	android:hint="username" 
+	android:textStyle="italic" 
+	android:typeface="sans" 
+	android:gravity="center" 
+	android:textSize="18sp"
+	 android:layout_toRightOf="@+id/usernametext" android:layout_height="wrap_content" android:layout_width="match_parent">
+	 </EditText>
+			</LinearLayout>
+			
+	<LinearLayout 
+	
+	android:layout_height="match_parent"
+	 android:id="@+id/linearLayout5" android:layout_width="match_parent">
+	 
+	 	<TextView android:id="@+id/passwordtext" 
+	 	android:background="@drawable/passwordtext_small"
+		android:layout_width="wrap_content" 
+		android:layout_marginTop="10dp" 
+		android:text="" 
+		android:textSize="34sp"
+		android:layout_alignParentLeft="true" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/usernametext">
+		</TextView>
+			<EditText 
+			android:id="@+id/password" 
+			android:layout_height="wrap_content"
+			 android:password="true" 
+			 android:gravity="center" 
+			  android:textSize="18sp" 
+			  android:typeface="sans" 
+			  android:textStyle="italic" 
+			  android:hint="password" 
+			  android:layout_below="@+id/username" 
+			  android:layout_toRightOf="@+id/imageView1" android:layout_width="match_parent">
+			  </EditText>
+     
+			
+		</LinearLayout>
+		
+		
+</LinearLayout>
+	<LinearLayout
+	 
+	 android:layout_height="wrap_content" 
+	android:layout_width="match_parent" 
+	android:id="@+id/linearLayout6"
+ 	android:orientation="vertical">
+  <CheckBox
+
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="Remember me"
+            android:layout_marginTop="10dp"
+            android:layout_below ="@+id/password"
+            android:layout_centerHorizontal="true" android:layout_gravity="center">
+     </CheckBox>
+  <TextView android:text="© 2011 by Yanyong Pumkumarn. All rights reserved" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:textColor="@android:color/background_dark" android:textSize="10sp" android:layout_gravity="center_horizontal"></TextView>
+    <LinearLayout 
+
+    android:layout_height="wrap_content" 
+    android:layout_width="match_parent"
+	android:id="@+id/linearLayout7" 
+	android:orientation="vertical">
+	</LinearLayout>
+</LinearLayout>
+	<LinearLayout
+	 android:layout_height="wrap_content" 
+	 android:id="@+id/linearLayout8" 
+	 android:layout_width="match_parent" 
+	 android:orientation="vertical">
+	 
+	 
+	 
+	 </LinearLayout>
+	<Button android:background="@drawable/login_btn"
+	 android:layout_height="wrap_content" 
+	 android:layout_gravity="center_horizontal"
+	  android:layout_width="wrap_content"
+	   android:text="login" 
+	   android:id="@+id/login"></Button>
+
+
+
+
+</LinearLayout>

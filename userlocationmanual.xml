@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:background="@drawable/bggradient2"
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView 
+    android:textSize="10pt"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" android:id="@+id/textView1" android:text="Manual Choose Location" android:layout_gravity="center"></TextView>
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    	<TextView  
+    		android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:text="Lat:"
+	    />
+	    <EditText
+	    	android:id="@+id/lat"
+	    	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" 
+		    android:text=""
+	    />
+    </LinearLayout>
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    	<TextView  
+    		android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:text="Lon:"
+	    />
+	    <EditText
+	    	android:id="@+id/lon"
+	    	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" 
+		    android:text=""
+	    />
+    </LinearLayout>
+     <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    	<TextView  
+    		android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:text="Address:"
+	    />
+	    <EditText
+	    	android:id="@+id/address"
+	    	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" 
+		    android:text=""
+	    />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+        <Button android:layout_width="wrap_content" android:id="@+id/getLatLon" android:layout_height="wrap_content" android:layout_gravity="center" android:onClick="getLatLon_clicked" android:text="Get Lat Lon"></Button>
+        <Button android:layout_width="wrap_content" android:id="@+id/getAddress" android:layout_height="wrap_content" android:layout_gravity="right" android:onClick="getAddress_clicked" android:text="Get address"></Button>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:orientation="vertical">
+        <ImageButton 
+         android:background="@drawable/bggradient2"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pin" android:id="@+id/imageButton1" android:layout_gravity="center"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:orientation="vertical">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/login" android:id="@+id/imageButton2" android:layout_gravity="center"></ImageButton>
+    </LinearLayout>
+
+</LinearLayout>

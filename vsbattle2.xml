@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        
+        <AbsoluteLayout 
+        
+      android:background="@drawable/bgvsbattle"
+      
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout"
+    
+>
+            <ImageButton 
+            
+          
+            android:layout_width="wrap_content" android:src="@drawable/login" android:id="@+id/imageButton1" android:layout_x="-4dp" android:adjustViewBounds="false" android:layout_y="300dp" android:layout_height="wrap_content"></ImageButton>
+            <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Button" android:layout_x="13dp" android:layout_y="210dp"></Button>
+            <Button android:id="@+id/button3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Button" android:layout_x="85dp" android:layout_y="210dp"></Button>
+            <Button android:id="@+id/button2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Button" android:layout_x="238dp" android:layout_y="210dp"></Button>
+            <Button android:id="@+id/button4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Button" android:layout_x="164dp" android:layout_y="210dp"></Button>
+            <TextView  android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:text="HP  " android:layout_x="9dp" android:layout_y="6dp" android:textColor="@android:color/background_dark"></TextView>
+            <TextView  android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_width="wrap_content" android:text="MP" android:layout_x="9dp" android:layout_y="27dp" android:textColor="@android:color/background_dark"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView5" android:layout_width="wrap_content" android:text="0/0" android:layout_x="70dp" android:layout_y="7dp" android:textColor="@android:color/background_dark"></TextView>
+            <TextView  android:layout_height="wrap_content" android:id="@+id/textView6" android:layout_width="wrap_content" android:text="0/0" android:layout_x="71dp" android:layout_y="28dp" android:textColor="@android:color/background_dark"></TextView>
+        	<TextView  android:layout_height="wrap_content" android:id="@+id/textView7" android:layout_width="wrap_content" android:text="Wait. . ." android:layout_x="44dp" android:layout_y="160dp" android:textColor="@android:color/background_dark"></TextView>   
+            <TextView  android:layout_height="wrap_content" android:id="@+id/textView21" android:layout_width="wrap_content" android:text="LV 0" android:layout_x="244dp" android:layout_y="8dp" android:textColor="@android:color/background_dark"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView10" android:layout_width="wrap_content" android:text="Name" android:layout_x="194dp" android:layout_y="11dp" android:textColor="@android:color/background_dark"></TextView>
+            
+            <ImageButton android:layout_width="wrap_content" android:src="@drawable/login" android:id="@+id/imageButton2" android:layout_height="wrap_content" android:layout_x="139dp" android:layout_y="24dp"></ImageButton>
+            
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content" android:text="HP" android:layout_x="194dp" android:layout_y="309dp"></TextView>
+      		<TextView android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_width="wrap_content" android:text="MP" android:layout_x="194dp" android:layout_y="335dp"></TextView>
+             <TextView android:layout_height="wrap_content" android:id="@+id/textView8" android:layout_width="wrap_content" android:text="0/0" android:layout_x="247dp" android:layout_y="309dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView9" android:layout_width="wrap_content" android:text="0/0" android:layout_x="246dp" android:layout_y="332dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView12" android:layout_width="wrap_content" android:text="STR" android:layout_x="190dp" android:layout_y="364dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView13" android:layout_width="wrap_content" android:text="AGI" android:layout_x="190dp" android:layout_y="384dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView14" android:layout_width="wrap_content" android:text="INT" android:layout_x="192dp" android:layout_y="405dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView16" android:layout_width="wrap_content" android:text="0" android:layout_x="252dp" android:layout_y="364dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView17" android:layout_width="wrap_content" android:text="0" android:layout_x="252dp" android:layout_y="388dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView18" android:layout_width="wrap_content" android:text="0" android:layout_x="252dp" android:layout_y="409dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView19" android:layout_width="wrap_content" android:text="0" android:layout_x="255dp" android:layout_y="431dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView11" android:layout_width="wrap_content" android:text="Name" android:layout_x="54dp" android:layout_y="282dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView20" android:layout_width="wrap_content" android:text="LV 0" android:layout_x="97dp" android:layout_y="284dp"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView15" android:layout_width="wrap_content" android:text="LUK" android:layout_x="191dp" android:layout_y="427dp"></TextView>
+            <ProgressBar android:layout_width="wrap_content" style="?android:attr/progressBarStyleLarge" android:id="@+id/progressBar1" android:layout_height="wrap_content" android:layout_x="36dp" android:layout_y="68dp"></ProgressBar>
+            
+        </AbsoluteLayout>
